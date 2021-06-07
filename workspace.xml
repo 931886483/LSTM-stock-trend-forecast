@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54f5bdba-268b-4e0c-9f7f-56435557e038" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="97d1dbd8-8801-4713-adf1-0fa53ccb998c" />
+  <component name="ProjectId" id="1rQQngYEoOVdv6Rr0P8fHEfEd4J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\OneDrive - mails.ucas.ac.cn\接单\5.17\LSTM股票预测\LSTM\static\images\data1" />
+      <recent name="F:\OneDrive - mails.ucas.ac.cn\接单\5.17\LSTM" />
+      <recent name="F:\OneDrive - mails.ucas.ac.cn\接单\5.17\LSTM\static\images" />
+      <recent name="F:\OneDrive - mails.ucas.ac.cn\接单\5.17\LSTM\templates" />
+      <recent name="F:\OneDrive - mails.ucas.ac.cn\接单\5.17\LSTM\static\images\t1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\OneDrive - mails.ucas.ac.cn\接单\5.17\LSTM\static" />
+      <recent name="F:\OneDrive - mails.ucas.ac.cn\接单\5.17\LSTM\templates" />
+      <recent name="F:\OneDrive - mails.ucas.ac.cn\接单\5.17\LSTM" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="基于LSTM模型的股票预测模型" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\py\Anaconda\Ana\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="基于LSTM模型的股票预测模型" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="基于LSTM模型的股票预测模型" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stock_predict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="基于LSTM模型的股票预测模型" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock_predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stock_predict_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="基于LSTM模型的股票预测模型" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stock_predict_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="基于LSTM模型的股票预测模型" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.stock_predict" />
+        <item itemvalue="Python.stock_predict_2" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54f5bdba-268b-4e0c-9f7f-56435557e038" name="Default Changelist" comment="" />
+      <created>1618906002120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618906002120</updated>
+      <workItem from="1621232394802" duration="4982000" />
+      <workItem from="1621309106033" duration="3460000" />
+      <workItem from="1621326053640" duration="6966000" />
+      <workItem from="1621398048728" duration="5327000" />
+      <workItem from="1621608085988" duration="8000" />
+      <workItem from="1621608111259" duration="6126000" />
+      <workItem from="1621673668068" duration="1069000" />
+      <workItem from="1621674780745" duration="52000" />
+      <workItem from="1621675324174" duration="15687000" />
+      <workItem from="1621754981541" duration="703000" />
+      <workItem from="1621755940767" duration="10859000" />
+      <workItem from="1621779288068" duration="13555000" />
+      <workItem from="1622251064354" duration="599000" />
+      <workItem from="1622255087263" duration="4000" />
+      <workItem from="1622295220738" duration="6579000" />
+      <workItem from="1622641098439" duration="1892000" />
+      <workItem from="1622646093856" duration="13609000" />
+      <workItem from="1622706002122" duration="3120000" />
+      <workItem from="1623045917244" duration="700000" />
+      <workItem from="1623056089215" duration="2005000" />
+      <workItem from="1623058398431" duration="1087000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="929" y="485" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621756489432">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="929" y="485" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1621756489432" />
+    <state x="944" y="388" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622700602318">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="944" y="388" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1622700602318" />
+    <state x="998" y="397" key="FileChooserDialogImpl" timestamp="1621823491247">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="998" y="397" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1621823491247" />
+    <state width="2509" height="218" key="GridCell.Tab.0.bottom" timestamp="1623058647763">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1629" height="387" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1622337288503" />
+    <state width="2509" height="218" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1623058647763" />
+    <state width="2509" height="218" key="GridCell.Tab.0.center" timestamp="1623058647763">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1629" height="387" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1622337288503" />
+    <state width="2509" height="218" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1623058647763" />
+    <state width="2509" height="218" key="GridCell.Tab.0.left" timestamp="1623058647763">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1629" height="387" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1622337288503" />
+    <state width="2509" height="218" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1623058647763" />
+    <state width="2509" height="218" key="GridCell.Tab.0.right" timestamp="1623058647763">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1629" height="387" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1622337288503" />
+    <state width="2509" height="218" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1623058647763" />
+    <state width="2509" height="93" key="GridCell.Tab.1.bottom" timestamp="1623058112162">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2509" height="93" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1623058112162" />
+    <state width="2509" height="93" key="GridCell.Tab.1.center" timestamp="1623058112162">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2509" height="93" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1623058112162" />
+    <state width="2509" height="93" key="GridCell.Tab.1.left" timestamp="1623058112162">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2509" height="93" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1623058112162" />
+    <state width="2509" height="93" key="GridCell.Tab.1.right" timestamp="1623058112162">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2509" height="93" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1623058112162" />
+    <state x="701" y="258" key="SettingsEditor" timestamp="1622701293981">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="701" y="258" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1622701293981" />
+    <state x="899" y="375" width="906" height="822" key="find.popup" timestamp="1622690633721">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="899" y="375" width="906" height="822" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1622690633721" />
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup" timestamp="1621775606814">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="859" y="308" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1621775606814" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LSTM$demo.coverage" NAME="demo Coverage Results" MODIFIED="1621243746936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LSTM$test.coverage" NAME="test Coverage Results" MODIFIED="1621244718791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LSTM$stock_predict.coverage" NAME="stock_predict Coverage Results" MODIFIED="1622642335187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LSTM$app.coverage" NAME="app Coverage Results" MODIFIED="1623058647755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LSTM$stock_predict_2.coverage" NAME="stock_predict_2 Coverage Results" MODIFIED="1621327436119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

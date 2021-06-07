@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>上传数据集</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://heerey525.github.io/layui-v2.4.3/layui/css/layui.css">
+
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="index">上传数据集
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="line">数据集</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+<!--<div class="container">-->
+<!--    {% with messages = get_flashed_messages(with_categories=true) %}-->
+<!--    {% if messages %}-->
+<!--    {% for category, message in messages %}-->
+<!--    <div class="alert alert-{{ category }}">-->
+<!--        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>-->
+<!--        {{ message }}-->
+<!--    </div>-->
+<!--    {% endfor %}-->
+<!--    {% endif %}-->
+<!--    {% endwith %}-->
+<!--    &lt;!&ndash;    <div class="file">&ndash;&gt;-->
+<!--    &lt;!&ndash;        <form method="post" enctype="multipart/form-data">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <input type="file" name="fileupload">&ndash;&gt;-->
+<!--    &lt;!&ndash;            <input class="layui-btn layui-btn-normal" type="submit" value="上传">&ndash;&gt;-->
+<!--    &lt;!&ndash;        </form>&ndash;&gt;-->
+<!--    &lt;!&ndash;    </div>&ndash;&gt;-->
+<!--    <button type="button" class="layui-btn" id="test1" name="fileupload">-->
+<!--        <i class="layui-icon">&#xe67c;</i>上传数据集-->
+<!--    </button>-->
+
+
+<!--</div>-->
+<p style="text-align:center; vertical-align: center"><img src="{{ url_for('static', filename='images/blur-1853262_640.jpg') }}" style="margin: auto"/></p>
+
+<div class="layui-inline" style="margin: 100px 1200px">
+    <button type="button" class="layui-btn" id="upload"><i class="layui-icon"></i>上传文件</button>
+</div>
+
+<script src="https://heerey525.github.io/layui-v2.4.3/layui-v2.4.5/layui.js"></script>
+<script>
+    layui.use(['upload', 'layer'], function () {
+        var upload = layui.upload;
+        var layer = layui.layer;
+        upload.render({
+            elem: '#upload'
+            , url: '/upload'
+            , accept: 'file'
+            , exts: 'csv'
+            , size: 2048
+            , done: function (res) {
+                console.log(res);
+                if (res.code === 0) {
+                    layer.msg(res.filename + '上传成功');
+                    $("#upload_message").val(res.filename);
+                    $("#img_delete").show()
+                } else {
+                    layer.alert('上传失败');
+                    $("#upload_message").val('上传失败！');
+                }
+            }
+        });
+    })
+</script>
+
+</body>
+
+</html>
